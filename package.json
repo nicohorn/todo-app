@@ -1,0 +1,14 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "Todo app test for The Media Optimizers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nico Horn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
