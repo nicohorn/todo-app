@@ -6,11 +6,11 @@ const port = 3001;
 
 // Initialize with sample tasks
 let tasks = [
-  { id: 1, task: "Sample Task 1", completed: true },
-  { id: 2, task: "Sample Task 2", completed: false },
-  { id: 3, task: "Sample Task 3", completed: false },
-  { id: 4, task: "Sample Task 4", completed: false },
-  { id: 5, task: "Sample Task 5", completed: false },
+  { id: 1, task: "Take out the trash", completed: true },
+  { id: 2, task: "Buy groceries", completed: false },
+  { id: 3, task: "Do laundry", completed: false },
+  { id: 4, task: "Call mom", completed: false },
+  { id: 5, task: "Water the plants", completed: false },
 ];
 
 // Parse JSON bodies

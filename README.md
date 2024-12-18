@@ -69,7 +69,7 @@ npm run start:frontend
 Once running, you can access:
 
 - Frontend: http://localhost:3000
-- Backend API: http://localhost:5000
+- Backend API: http://localhost:3001
 
 #### Project structure
 
