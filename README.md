@@ -131,4 +131,4 @@ React app set up with Vite using TypeScript and Tailwind for styling. The entry 
   - `updateTodoStatus()`: PATCH request to toggle todo completion
   - `deleteTodo()`: DELETE request to remove a todo
 
-- **`types.ts`**: Contains TypeScript interfaces and types used across the application, primarily the Todo type definition.
+- **`types.ts`**: Contains the Todo interface.
