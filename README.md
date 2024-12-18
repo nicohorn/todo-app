@@ -25,7 +25,7 @@ This application consists of a frontend and backend that need to run simultaneou
 1. Clone the repository and navigate to the project folder:
 
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/nicohorn/todo-app
    cd todo-app
    ```
 
