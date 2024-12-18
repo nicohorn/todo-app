@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Todo app test for The Media Optimizers",
   "scripts": {
-    "start:backend": "cd backend && npm run dev",
-    "start:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm i && npm run dev",
+    "start:frontend": "cd frontend && npm i && npm run dev",
     "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

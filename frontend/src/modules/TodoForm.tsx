@@ -21,11 +21,11 @@ export default function TodoForm({ onCreateTodo }: TodoFormProps) {
 
   return (
     <form
-      className="border border-gray-300 bg-gray-200 px-2 py-2 flex gap-2"
+      className="border border-gray-300 bg-gray-200 px-2 py-2 flex gap-2 rounded-md"
       onSubmit={handleSubmit}
     >
       <input
-        className=" border px-2 outline-none placeholder:text-sm grow"
+        className=" border px-2 outline-none placeholder:text-sm grow rounded-md"
         type="text"
         value={description}
         onChange={(e) => setDescription(e.target.value)}

@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import { Todo } from "./lib/types";
+import { Todo } from "../lib/types";
 import {
   createTodo,
   deleteTodo,
   fetchTodos,
   updateTodoStatus,
-} from "./lib/todo_repository";
+} from "../lib/todo_repository";
 import TodoCard from "./TodoCard";
 import TodoForm from "./TodoForm";
 

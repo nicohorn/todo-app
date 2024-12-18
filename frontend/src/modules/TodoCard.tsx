@@ -1,4 +1,4 @@
-import { Todo } from "./lib/types";
+import { Todo } from "../lib/types";
 
 interface TodoCardProps {
   todo: Todo;
@@ -15,7 +15,7 @@ export default function TodoCard({
   onDeleteTodo,
 }: TodoCardProps) {
   return (
-    <div className="flex justify-between my-1 border px-2 py-2 todo-item group hover:border-gray-300 transition">
+    <div className="flex justify-between my-1 rounded-md border px-2 py-2 todo-item group hover:border-gray-300 transition">
       <span>
         {idx + 1}. {todo.task}
       </span>
